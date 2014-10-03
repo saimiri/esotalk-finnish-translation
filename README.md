@@ -1,6 +1,8 @@
-# esoTalk Finnish translation
+# esoTalk Finnish translation (Beta)
 
-Finnish language pack for the esoTalk forum. This is a work in progress, maybe 80% of the translation is done and it's not very polished either.
+Finnish language pack for the esoTalk forum. All of the translations are done but it still needs some spit and shine.
+
+If you have suggestions on how to improve the translations, please do not hesitate to contact me. Creating a GitHub issue is the preferred way.
 
 ## How to install
 
