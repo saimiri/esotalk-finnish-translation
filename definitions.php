@@ -1,6 +1,18 @@
 <?php
-// Copyright 2011 Toby Zerner, Simon Zerner
-// This file is part of esoTalk. Please see the included license file for usage information.
+/**
+ * Finnish language pack for esoTalk.
+ * 
+ * To report any mistakes or to suggest improvements, please create a new issue
+ * at GitHub: http://www.github.com/saimiri/esotalk-finnish-translation/issues
+ * 
+ * @package			esoTalk
+ * @subpackage	languages
+ * @copyright		Copyright (c) 2011 Toby Zerner, Simon Zerner
+ *              Finnish translations (c) 2014 Juha Auvinen
+ * @author			Toby Zerner, Simon Zerner; Juha Auvinen
+ * @license			http://opensource.org/licenses/GPL-2.0 Gnu General Public License 2.0
+ * @link				http://www.github.com/saimiri/esotalk-finnish-translation
+ */
 
 //*** = needs some more thought
 
@@ -37,17 +49,17 @@ $definitions["%d years ago"] = "%d vuotta sitten";
 
 $definitions["%s and %s"] = "%s ja %s";
 $definitions["%s can view this conversation."] = "%s voivat nähdä tämän keskustelun.";
-$definitions["%s changed %s's group to %s."] = "%s vaihtoi käyttäjän %s ryhmäksi %s.";
+$definitions["%s changed %s's group to %s."] = "%s vaihtoi jäsenen %s ryhmäksi %s.";
 $definitions["%s changed your group to %s."] = "%s vaihtoi ryhmäksesi \"%s\".";
 $definitions["%s conversation"] = "%s keskustelu";
 $definitions["%s conversations"] = "%s keskustelua";
 $definitions["%s has registered and is awaiting approval."] = "%s on rekisteröitynyt ja odottaa hyväksyntää.";
 $definitions["%s invited you to %s."] = "%s on kutsunut sinut %s.";
-$definitions["%s joined the forum."] = "%s on liittynyt foorumille.";
+$definitions["%s joined the forum."] = "%s liittyi foorumille.";
 $definitions["%s mentioned you in %s."] = "%s on maininnut sinut keskustelussa \"%s\".";
 $definitions["%s post"] = "%s viesti";
 $definitions["%s posted %s"] = "%s kirjoitti %s";
-$definitions["%s posted in %s."] = "%s kirjoitti ketjussa %s.";
+$definitions["%s posted in %s."] = "%s kirjoitti keskustelussa %s.";
 $definitions["%s posts"] = "%s viestiä";
 $definitions["%s reply"] = "%s vastaus";
 $definitions["%s replies"] = "%s vastausta";
@@ -85,14 +97,14 @@ $definitions["Back to members"] = "Takaisin jäseniin";
 $definitions["Back to search"] = "Takaisin hakuun";
 $definitions["Background color"] = "Taustaväri";
 $definitions["Background image"] = "Taustakuva";
-$definitions["Base URL"] = "Base URL"; // ***
+$definitions["Base URL"] = "Foorumin kantaosoite";
 $definitions["Bold"] = "Lihavoitu";
-$definitions["By %s"] = "By %s"; //***
+$definitions["By %s"] = "Kirjoittanut %s"; //***
 
-$definitions["Can suspend/unsuspend members"] = "Can suspend/unsuspend members"; //***
+$definitions["Can suspend/unsuspend members"] = "Voi hyllyttää/palauttaa jäseniä"; //***
 $definitions["Cancel"] = "Peru";
 $definitions["Change"] = "Muuta";
-$definitions["Change %s's Permissions"] = "Muuta käyttäjän %s oikeuksia";
+$definitions["Change %s's Permissions"] = "Muuta jäsenen %s oikeuksia";
 $definitions["Change avatar"] = "Vaihda avataria";
 $definitions["Change Channel"] = "Vaihda Kanavaa";
 $definitions["Change channel"] = "Vaihda kanavaa";
@@ -104,7 +116,7 @@ $definitions["Change permissions"] = "Vaihda käyttöoikeuksia";
 $definitions["Channel description"] = "Kanavan kuvaus";
 $definitions["Channel List"] = "Kanavalista";
 $definitions["Channel title"] = "Kanavan otsikko";
-$definitions["Channel slug"] = "Kanavan slug"; //***
+$definitions["Channel slug"] = "Kanavan osoite (slug)";
 $definitions["Channels"] = "Kanavat";
 $definitions["Choose a secure password of at least %s characters"] = "Valitse turvallinen salasana jossa on vähintään %s merkkiä";
 $definitions["Choose what people will see when they first visit your forum."] = "Valitse mitä ihmiset näkevät kun he tulevat foorumille ensimmäistä kertaa.";
@@ -113,14 +125,14 @@ $definitions["Close registration"] = "Sulje rekisteröinti";
 $definitions["Confirm password"] = "Vahvista salasana";
 $definitions["Controls"] = "Toiminnot";
 $definitions["Conversation"] = "Keskustelu";
-$definitions["Conversations participated in"] = "Keskusteluun osallistuttu ***"; //***
-$definitions["Conversations started"] = "Keskustelua aloitettu";
+$definitions["Conversations participated in"] = "Osallistunut keskust."; // We need to keep this short to fit the available space
+$definitions["Conversations started"] = "Aloittanut keskusteluja";
 $definitions["Conversations"] = "Keskustelut";
 $definitions["Copy permissions from"] = "Kopioi käyttöoikeudet kohteesta"; // ***
 $definitions["Create Channel"] = "Luo kanava";
 $definitions["Create Group"] = "Luo ryhmä";
 $definitions["Create Member"] = "Luo jäsen";
-$definitions["Customize how users can become members of your forum."] = "Valitse miten käyttäjät voivat liittyä foorumillesi.";
+$definitions["Customize how users can become members of your forum."] = "Valitse miten ihmiset voivat liittyä foorumillesi.";
 $definitions["Customize your forum's appearance"] = "Mukauta foorumisi ulkoasua";
 
 $definitions["Dashboard"] = "Hallintapaneeli";
@@ -132,7 +144,7 @@ $definitions["Delete member"] = "Poista jäsen";
 $definitions["Delete Member"] = "Poista jäsen";
 $definitions["<strong>Delete this member's posts.</strong> All of this member's posts will be marked as deleted, but will be able to be restored manually."] = "<strong>Poista tämän jäsenen viestit.</strong> Kaikki tämän jäsenen viestit merkitään poistetuksi, mutta ne voidaan vielä manuaalisesti palauttaa.";
 $definitions["Delete"] = "Poista";
-$definitions["Deleted %s by %s"] = "Poistettu %s jäsenen %s toimesta"; //***
+$definitions["Deleted %s by %s"] = "%2\$s on poistanut tämän %1\$s"; //***
 $definitions["Deny"] = "Kiellä";
 $definitions["Disable"] = "Poista käytöstä";
 $definitions["Discard"] = "Hylkää";
@@ -143,7 +155,7 @@ $definitions["Don't require users to confirm their account"] = "Älä vaadi käy
 
 $definitions["Edit Channel"] = "Muokkaa kanavaa";
 $definitions["Edit Group"] = "Muokkaa ryhmää";
-$definitions["Edit member groups"] = "Muokkaa jäsenryhmiä";
+$definitions["Edit member groups"] = "Muokkaa ryhmiä";
 $definitions["Edit your profile"] = "Muokkaa profiiliasi";
 $definitions["Edit"] = "Muokkaa";
 $definitions["Edited %s by %s"] = "Muokannut %2\$s %1\$s"; // ****
@@ -164,12 +176,12 @@ $definitions["Everyone"] = "Kaikki";
 $definitions["Fatal Error"] = "Jokin meni vikaan";
 $definitions["Feed"] = "Syöte";
 $definitions["Filter by name or group..."] = "Suodata nimen tai ryhmän mukaan...";
-$definitions["Find this post"] = "Löydä tämä viesti***";
-$definitions["First posted"] = "Kirjoitettu ensimmäisen kerran"; // ***
+$definitions["Find this post"] = "Löydä tämä viesti"; //***
+$definitions["First posted"] = "Ensimmäinen viesti";
 $definitions["Follow"] = "Seuraa";
 $definitions["Follow to receive notifications"] = "Seuraa saadaksesi ilmoitukset";
 $definitions["Following"] = "Seurataan";
-$definitions["For %s seconds"] = "%s sekuntin ajan";
+$definitions["For %s seconds"] = "%s sekunnin ajan";
 $definitions["Forever"] = "Ikuisesti";
 $definitions["Forgot?"] = "Unohditko?";
 $definitions["Forgot Password"] = "Salasana unohtunut";
@@ -194,8 +206,8 @@ $definitions["group.member"] = "Jäsen";
 $definitions["group.member.plural"] = "Jäsenet";
 $definitions["group.Moderator"] = "Moderaattori";
 $definitions["group.Moderator.plural"] = "Moderaattorit";
-$definitions["group.suspended"] = "Keskeytetty"; //***
-$definitions["Groups can be used to categorize members and give them certain privileges."] = "Ryhmien avulla voidaan kategorisoida jäseniä ja antaa heille tiettyjä käyttöoikeuksia.";
+$definitions["group.suspended"] = "Hyllytetty"; //***
+$definitions["Groups can be used to categorize members and give them certain privileges."] = "Ryhmien avulla voidaan luokitella jäseniä ja antaa heille tiettyjä käyttöoikeuksia.";
 $definitions["Groups"] = "Ryhmät";
 $definitions["Guests can view the:"] = "Vieraat voivat tarkastella:"; //***
 
@@ -207,13 +219,14 @@ $definitions["Home page"] = "Kotisivu";
 $definitions["HTML is allowed."] = "HTML on sallittu.";
 
 $definitions["If you run into any other problems or just want some help with the installation, feel free to ask for assistance at the <a href='%s'>esoTalk support forum</a>."] = "Jos sinulle tulee ongelmia tai kaipaat neuvoja asennuksen kanssa, pyydä apua <a href='%s'>esoTalkin tukifoorumilta</a>.";
+$definitions["Ignore conversation"] = "Ohita keskustelu";
 $definitions["Install esoTalk"] = "Asenna esoTalk";
 $definitions["Install My Forum"] = "Asenna My Forum"; // ***
 $definitions["Installed Languages"] = "Asennetut kielet";
 $definitions["Installed Plugins"] = "Asennetut liitännäiset";
 $definitions["Installed plugins"] = "Asennetut liitännäiset";
-$definitions["Installed Skins"] = "Asennetut nahkat"; // ***
-$definitions["Installed skins"] = "Asennetut nahkat"; // ***
+$definitions["Installed Skins"] = "Asennetut ulkoasut"; // ***
+$definitions["Installed skins"] = "Asennetut ulkoasut"; // ***
 $definitions["is %s"] = "on %s";
 
 $definitions["Joined"] = "Liittyi"; //***
@@ -256,8 +269,8 @@ $definitions["Members Allowed to View this Conversation"] = "Jäsenet, jotka saa
 $definitions["Members Awaiting Approval"] = "Hyväksyntää odottavat jäsenet";
 $definitions["Members Online"] = "Paikalla olevat jäsenet";
 $definitions["Members who are part of this group can be listed by searching for the group name in the member list."] = "Voit listata tämän ryhmän jäsenet etsimällä ryhmän nimeä jäsenlistassa.";
-$definitions["Mobile skin"] = "Mobiilinahka"; //***
-$definitions["Moderate"] = "Moderoi";
+$definitions["Mobile skin"] = "Mobiiliulkoasu"; //***
+$definitions["Moderate"] = "Moderoida"; // Member privilege table
 $definitions["<strong>Move</strong> conversations to the following channel:"] = "<strong>Siirrä</strong> keskustelut seuraavalle kanavalle:";
 $definitions["Mute conversation"] = "Mykistä keskustelu";
 $definitions["MySQL database"] = "MySQL-tietokanta";
@@ -299,14 +312,14 @@ $definitions["Page Not Found"] = "Sivua ei löytynyt";
 $definitions["Password"] = "Salasana";
 $definitions["PHP version"] = "PHP-versio";
 $definitions["Plugins"] = "Liitännäiset";
-$definitions["Post a Reply"] = "Kirjoita vastaus";
+$definitions["Post a Reply"] = "Lähetä vastaus";
 $definitions["Post count"] = "Viestimäärä";
-$definitions["Posts"] = "Viestit";
+$definitions["Posts"] = "Viestejä"; // As in "post count" on the statistics page
 $definitions["Powered by"] = "Moottorina jyllää";
 $definitions["Preview"] = "Esikatsele";
 $definitions["Previous"] = "Edellinen";
 
-$definitions["Quote"] = "Lainaa";
+$definitions["Quote"] = "Lainaus";
 $definitions["quote"] = "lainaus";
 
 $definitions["Read more"] = "Lue lisää";
@@ -316,8 +329,8 @@ $definitions["Registered members"] = "Rekisteröidyt jäsenet";
 $definitions["Registration"] = "Rekisteröinti";
 $definitions["Registration Closed"] = "Rekisteröinti suljettu";
 $definitions["Remove avatar"] = "Poista avatar";
-$definitions["Rename Member"] = "Poista jäsen";
-$definitions["Reply"] = "Vastaa";
+$definitions["Rename Member"] = "Uudelleennimeä jäsen";
+$definitions["Reply"] = "Vastata"; //*** Member privilege table
 $definitions["Report a bug"] = "Raportoi bugi";
 $definitions["Require administrator approval"] = "Vaadi ylläpitäjän hyväksyntä";
 $definitions["Require users to confirm their email address"] = "Vaadi käyttäjiä vahvistamaan sähköpostiosoitteensa";
@@ -330,7 +343,7 @@ $definitions["Save Draft"] = "Tallenna luonnos";
 $definitions["Search conversations..."] = "Etsi keskusteluista...";
 $definitions["Search within this conversation..."] = "Etsi tästä keskustelusta...";
 $definitions["Search"] = "Etsi";
-$definitions["See the private conversations I've had with %s"] = "Näytä yksityiset keskustelut käyttäjän %s kanssa";
+$definitions["See the private conversations I've had with %s"] = "Näytä yksityiset keskustelut jäsenen %s kanssa";
 $definitions["Set a New Password"] = "Aseta uusi salasana";
 $definitions["Settings"] = "Asetukset";
 $definitions["Show an image in the header"] = "Näytä kuva ylätunnisteessa";
@@ -340,12 +353,12 @@ $definitions["Show the channel list by default"] = "Näytä oletuksena kanavalis
 $definitions["Show the conversation list by default"] = "Näytä oletuksena keskustelulista";
 $definitions["Show the forum title in the header"] = "Näytä foorumin otsikko ylätunnisteessa";
 $definitions["Sign Up"] = "Liity";
-$definitions["Skins"] = "Ulkoasut***"; //***
-$definitions["Sort By"] = "Järjestä***"; //***
+$definitions["Skins"] = "Ulkoasut"; //*** Or should we just use "nahkat"?
+$definitions["Sort By"] = "Järjestä:"; // "Järjestysperuste" would be better, but it's too long for Default skin
 $definitions["Specify Setup Information"] = "Määrittele asennustiedot";
 $definitions["Star to receive notifications"] = "Seuraa saadaksesi ilmoitukset";
 $definitions["Starred"] = "Seurattu"; //***
-$definitions["Start"] = "Aloita"; //***
+$definitions["Start"] = "Aloittaa"; //*** Member privilege table
 $definitions["Start a conversation"] = "Aloita keskustelu";
 $definitions["Start a new conversation"] = "Aloita uusi keskustelu";
 $definitions["Start a private conversation with %s"] = "Aloita yksityinen keskustelu jäsenen %s kanssa";
@@ -360,7 +373,7 @@ $definitions["statistic.online.plural"] = "%s paikalla";
 $definitions["statistic.online"] = "%s paikalla";
 $definitions["statistic.post.plural"] = "%s viestiä";
 $definitions["statistic.post"] = "%s viesti";
-$definitions["Sticky"] = "Kiinnitetty";
+$definitions["Sticky"] = "Kiinnitä";
 $definitions["Subscribe"] = "Tilaa";
 $definitions["Subscribed"] = "Tilattu";
 $definitions["Subscription"] = "Tilaus";
@@ -373,6 +386,7 @@ $definitions["To get started with your forum, you might like to:"] = "Päästäk
 
 $definitions["Unapproved"] = "Hyväksymätön";
 $definitions["Unhide"] = "Näytä";
+$definitions["Unignore conversation"] = "Poista keskustelun ohitus";
 $definitions["Uninstall"] = "Poista asennus";
 $definitions["Unlock"] = "Avaa";
 $definitions["Unmute conversation"] = "Poista mykistys";
@@ -381,9 +395,9 @@ $definitions["Unsticky"] = "Poista kiinnitys";
 $definitions["Unsubscribe new users by default"] = "Peruuta uusien käyttäjien tilaus oletuksena***"; //***
 $definitions["Unsubscribe"] = "Peruuta tilaus";
 $definitions["Unsubscribed"] = "Tilaus peruutettu";
-$definitions["Unsuspend member"] = "Palauta käyttäjä"; //***
-$definitions["Unsuspend"] = "Unsuspend"; //***
-$definitions["Until someone replies"] = "Kunnes joku vastaa";
+$definitions["Unsuspend member"] = "Palauta jäsen"; //***
+$definitions["Unsuspend"] = "Hyllytä"; //***
+$definitions["Until someone replies"] = "Kunnes joku kirjoittaa vastauksen";
 $definitions["Untitled conversation"] = "Nimeämätön keskustelu";
 $definitions["Upgrade esoTalk"] = "Päivitä esoTalk";
 $definitions["Use a background image"] = "Käytä taustakuvaa";
@@ -393,11 +407,11 @@ $definitions["Used to verify your account and subscribe to conversations"] = "K�
 $definitions["Username"] = "Nimimerkki";
 $definitions["Username or Email"] = "Nimimerkki tai sähköpostiosoite";
 
-$definitions["View %s's profile"] = "Tarkastele käyttäjän %s profiilia"; // ***
+$definitions["View %s's profile"] = "Tarkastele jäsenen %s profiilia"; // ***
 $definitions["View all notifications"] = "Näytä kaikki ilmoitukset";
 $definitions["View more"] = "Näytä lisää";
 $definitions["View your profile"] = "Tarkastele profiiliasi";
-$definitions["View"] = "Näytä"; //***
+$definitions["View"] = "Nähdä"; // This is used on the table that displays member's privileges
 $definitions["Viewing: %s"] = "Näytetään: %s";
 $definitions["viewingPosts"] = "<b>%s-%s</b> %s kirjoituksesta"; // ***
 
@@ -409,7 +423,6 @@ $definitions["Write a reply..."] = "Kirjoita vastaus...";
 $definitions["Yes"] = "Kyllä";
 $definitions["You can manage channel-specific permissions on the channels page."] = "Voit hallita kanavakohtaisia käyttöoikeuksia Kanavat-sivulla.";
 $definitions["Your current password"] = "Nykyinen salasanasi";
-
 
 // Messages.
 //$definitions["message.404"] = "Oh dear - the page you requested could not be found! Try going back and clicking a different link. Or something else.";
@@ -429,9 +442,9 @@ $definitions["message.cannotEditSinceReply"] = "Et voi enää muokata viestiäsi
 //$definitions["message.changesSaved"] = "Your changes were saved.";
 $definitions["message.changesSaved"] = "Muutoksesi on tallennettu";
 //$definitions["message.channelsHelp"] = "Channels are used to categorize conversations on your forum. You can create as many channels as needed, and rearrange/nest them by dragging and dropping below.";
-$definitions["message.channelsHelp"] = "Kanavia käytetään foorumin keskustelujen kategorisoimiseen. Voit luoda niin monta kanavaa kuin haluat ja järjestellä/***nest*** niitä raahaamalla ja tiputtamalla niitä alla olevassa listassa."; //***
+$definitions["message.channelsHelp"] = "Kanavia käytetään foorumin keskustelujen luokitteluun. Voit luoda niin monta kanavaa kuin haluat ja järjestää tai asettaa niitä sisäkkäin raahaamalla ja tiputtamalla niitä alla olevassa listassa."; //***
 //$definitions["message.channelSlugTaken"] = "This slug is already in use by another channel.";
-$definitions["message.channelSlugTaken"] = "Toinen kanava käyttää jo tätä slugia."; //***
+$definitions["message.channelSlugTaken"] = "Toinen kanava käyttää jo tätä osoitetta."; //***
 //$definitions["message.confirmDelete"] = "Are you sure you want to delete this? Seriously, you won't be able to get it back.";
 $definitions["message.confirmDelete"] = "Oletko varma että haluat poistaa tämän? Oikeasti, et saa sitä enää takaisin.";
 //$definitions["message.confirmDiscardPost"] = "You have not saved your post as a draft. Do you wish to discard it?";
@@ -473,7 +486,7 @@ $definitions["message.esoTalkUpdateAvailableHelp"] = "Tietoturvariskien vähent�
 //$definitions["message.esoTalkUpToDate"] = "Your version of esoTalk is up-to-date.";
 $definitions["message.esoTalkUpToDate"] = "Sinun versiosi esoTalkista on ajan tasalla.";
 //$definitions["message.esoTalkUpToDateHelp"] = "esoTalk is developed in the spare time of a college student. Please consider <a href='%s' target='_blank'>donating</a> to keep it alive!";
-$definitions["message.esoTalkUpToDateHelp"] = "esoTalkin kehitys tapahtuu opiskelijan vapaa-ajalla. Ole ystävällinen ja harkitse <a href='%s' target='_blank'>lahjoittamista</a> pitääksesi sen (ja hänet) hengissä!"; //***
+$definitions["message.esoTalkUpToDateHelp"] = "esoTalkin kehittäjä on opiskelija, joka tekee kehitystyön vapaa-ajallaan. Ole ystävällinen ja harkitse <a href='%s' target='_blank'>lahjoittamista</a> pitääksesi esoTalkin (ja hänet) voimissaan!"; //***
 //$definitions["message.fatalError"] = "esoTalk has encountered a fatal error. Try again, or <a href='%1\$s' target='_blank'>get help</a>.";
 $definitions["message.fatalError"] = "Tapahtui vakava virhe. Yritä uudestaan tai <a href='%1\$s' target='_blank'>pyydä apua</a>.";
 //$definitions["message.fileUploadFailed"] = "Something went wrong and the file you selected could not be uploaded. Perhaps it's too big, or in the wrong format?";
@@ -507,7 +520,7 @@ $definitions["message.installerAdminHelp"] = "esoTalk käyttää seuraavia tieto
 //$definitions["message.installerFilesNotWritable"] = "<strong>esoTalk cannot write to the following files/folders: %s.</strong> To resolve this, you must navigate to these files/folders in your FTP client and <code>chmod</code> them to <code>0777</code>.";
 $definitions["message.installerFilesNotWritable"] = "<strong>esoTalk ei pysty kirjoittamaan seuraaviin tiedostoihin/kansioihin: %s.</strong> Ongelman korjaamiseksi ota FTP-yhteys palvelimeen ja muuta <code>chmod</code>-komennolla niiden käyttöoikeudeksi <code>0777</code>."; //***
 //$definitions["message.installerWelcome"] = "Set up your fat-free forum but by filling out the form below.<br>If you have any trouble, get help on the <a href='%s' target='_blank'>esoTalk website</a>.";
-$definitions["message.installerWelcome"] = "Aloita foorumisi asennus täyttämällä alla oleva lomake.<br>Jos tulee minkäänlaisia ongelmia, saat apua <a href='%s' target='_blank'>esoTalkin nettisivuilta</a>."; //***
+$definitions["message.installerWelcome"] = "Aloita foorumisi asennus täyttämällä alla oleva lomake.<br>Jos kohtaat minkäänlaisia ongelmia, saat apua <a href='%s' target='_blank'>esoTalkin nettisivuilta</a>."; //***
 //$definitions["message.invalidChannel"] = "You selected an invalid channel!";
 $definitions["message.invalidChannel"] = "Valitsit viallisen kanavan!"; //***
 //$definitions["message.invalidEmail"] = "Seems this email address isn't valid...";
@@ -520,54 +533,99 @@ $definitions["message.javascriptRequired"] = "Tämä sivu vaatii JavaScript-tuen
 $definitions["message.languageUninstalled"] = "Kieli on asennettu";
 //$definitions["message.locked"] = "Hm, looks like this conversation is <strong>locked</strong>, so you can't reply to it.";
 $definitions["message.locked"] = "Hmm, tämä keskustelu näkyy olevan <strong>lukittu</strong>, joten et voi vastata siihen.";
-$definitions["message.loginToParticipate"] = "To start conversations or reply to posts, please log in.";
-$definitions["message.logInToReply"] = "<a href='%1\$s' class='link-login'>Log In</a> or <a href='%2\$s' class='link-join'>Sign Up</a> to reply!";
-$definitions["message.logInToSeeAllConversations"] = "<a href='".URL("user/login")."' class='link-login'>Log in</a> to expose some channels/conversations that may be hidden to guests.";
-$definitions["message.memberNotFound"] = "Hm, there doesn't seem to be a member with that name.";
-$definitions["message.memberNoPermissionView"] = "That member can't be added because they don't have permission to view the channel that this conversation is in.";
-$definitions["message.nameTaken"] = "The name you have entered is taken or is a reserved word.";
-$definitions["message.newSearchResults"] = "There has been new activity that has affected your search results. <a href='%s'>Refresh</a>";
-$definitions["message.noActivity"] = "%s hasn't done anything on this forum yet!";
-$definitions["message.noChannels"] = "No channels are visible.";
-$definitions["message.noMembersOnline"] = "No members are currently online.";
-$definitions["message.noNotifications"] = "You have no notifications.";
-$definitions["message.noPermission"] = "You do not have permission to perform this action.";
-$definitions["message.noPermissionToReplyInChannel"] = "You don't have permission to reply to conversations in this channel.";
-$definitions["message.noPluginsInstalled"] = "No plugins are currently installed.";
-$definitions["message.noSearchResults"] = "No conversations matching your search were found.";
-$definitions["message.noSearchResultsMembers"] = "No members matching your search were found.";
-$definitions["message.noSearchResultsPosts"] = "No posts matching your search were found.";
-$definitions["message.noSkinsInstalled"] = "No skins are currently installed.";
-$definitions["message.notWritable"] = "<code>%s</code> is not writeable. Try <code>chmod</code>ing it to <code>777</code>, or if it doesn't exist, <code>chmod</code> the folder it is contained within.";
-$definitions["message.pageNotFound"] = "The page you're looking for could not be found.";
-$definitions["message.passwordChanged"] = "Alright, your password has been changed. Now you can log in! Hey, try not to forget it again, OK?";
-$definitions["message.passwordEmailSent"] = "Ok, we've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two. Yeah, some times we get put through to spam - can you believe it?!";
-$definitions["message.passwordsDontMatch"] = "Your passwords do not match.";
-$definitions["message.passwordTooShort"] = "Your password is too short.";
-$definitions["message.pluginCannotBeEnabled"] = "The plugin <em>%s</em> cannot be enabled: %s";
-$definitions["message.pluginDependencyNotMet"] = "To enable this plugin, you must have %s version %s installed and enabled.";
-$definitions["message.pluginUninstalled"] = "The plugin was uninstalled.";
-$definitions["message.postNotFound"] = "The post you're looking for could not be found.";
-$definitions["message.postTooLong"] = "Your post is really, really long! Too long! The maximum number of characters allowed is %s. That's really long!";
-$definitions["message.preInstallErrors"] = "These errors must be resolved before you can continue the installation.";
-$definitions["message.preInstallWarnings"] = "You can continue the esoTalk install without resolving the following warnings, but some esoTalk functionality may be limited.";
-$definitions["message.reduceNumberOfGambits"] = "Reduce the number of gambits or search keywords you're using to find a broader range of conversations.";
-$definitions["message.registerGlobalsWarning"] = "<strong>PHP's register_globals setting is enabled.</strong> While esoTalk can run with this setting on, it is recommended that it be turned off to increase security and to prevent esoTalk from having problems.";
+//$definitions["message.loginToParticipate"] = "To start conversations or reply to posts, please log in.";
+$definitions["message.loginToParticipate"] = "Kirjaudu sisään aloittaaksesi keskustelun tai vastataksesi viesteihin.";
+//$definitions["message.logInToReply"] = "<a href='%1\$s' class='link-login'>Log In</a> or <a href='%2\$s' class='link-join'>Sign Up</a> to reply!";
+$definitions["message.logInToReply"] = "<a href='%1\$s' class='link-login'>Kirjaudu sisään</a> tai <a href='%2\$s' class='link-join'>luo tili</a> vastataksesi!"; //***
+//$definitions["message.logInToSeeAllConversations"] = "<a href='".URL("user/login")."' class='link-login'>Log in</a> to expose some channels/conversations that may be hidden to guests.";
+$definitions["message.logInToSeeAllConversations"] = "<a href='".URL("user/login")."' class='link-login'>Kirjaudu sisään</a> nähdäksesi mahdolliset vierailta piilotetut keskustelut.";
+//$definitions["message.memberNotFound"] = "Hm, there doesn't seem to be a member with that name.";
+$definitions["message.memberNotFound"] = "Hmm, tuon nimistä jäsentä ei taida olla.";
+//$definitions["message.memberNoPermissionView"] = "That member can't be added because they don't have permission to view the channel that this conversation is in.";
+$definitions["message.memberNoPermissionView"] = "Kyseistä jäsentä ei voida lisätä, koska hänellä ei ole oikeutta nähdä kanavaa jolla tämä keskustelu on.";
+//$definitions["message.nameTaken"] = "The name you have entered is taken or is a reserved word.";
+$definitions["message.nameTaken"] = "Haluamasi nimimerkki on jo käytössä tai se on varattu sana."; //***
+//$definitions["message.newSearchResults"] = "There has been new activity that has affected your search results. <a href='%s'>Refresh</a>";
+$definitions["message.newSearchResults"] = "Foorumilla on ollut hakutuloksiin vaikuttavaa aktiviteettia. <a href='%s'>Päivitä</a>";
+//$definitions["message.noActivity"] = "%s hasn't done anything on this forum yet!";
+$definitions["message.noActivity"] = "%s ei ole tehnyt vielä mitään tällä foorumilla!";
+//$definitions["message.noChannels"] = "No channels are visible.";
+$definitions["message.noChannels"] = "Ei näkyviä kanavia.";
+//$definitions["message.noMembersOnline"] = "No members are currently online.";
+$definitions["message.noMembersOnline"] = "Yhtäkään jäsentä ei ole tällä hetkellä paikalla.";
+//$definitions["message.noNotifications"] = "You have no notifications.";
+$definitions["message.noNotifications"] = "Sinulle ei ole uusia ilmoituksia.";
+//$definitions["message.noPermission"] = "You do not have permission to perform this action.";
+$definitions["message.noPermission"] = "Sinulla ei ole oikeuksia suorittaa tätä toimintoa.";
+//$definitions["message.noPermissionToReplyInChannel"] = "You don't have permission to reply to conversations in this channel.";
+$definitions["message.noPermissionToReplyInChannel"] = "Sinulla ei ole oikeutta kirjoittaa vastauksia tälle kanavalle.";
+//$definitions["message.noPluginsInstalled"] = "No plugins are currently installed.";
+$definitions["message.noPluginsInstalled"] = "Yhtäkään liitännäistä ei ole asennettuna.";
+//$definitions["message.noSearchResults"] = "No conversations matching your search were found.";
+$definitions["message.noSearchResults"] = "Haulla ei löytynyt yhtään keskustelua.";
+//$definitions["message.noSearchResultsMembers"] = "No members matching your search were found.";
+$definitions["message.noSearchResultsMembers"] = "Haulla ei löytynyt yhtään jäsentä.";
+//$definitions["message.noSearchResultsPosts"] = "No posts matching your search were found.";
+$definitions["message.noSearchResultsPosts"] = "Haulla ei löytynyt yhtään viestiä.";
+//$definitions["message.noSkinsInstalled"] = "No skins are currently installed.";
+$definitions["message.noSkinsInstalled"] = "Yhtäkään ulkoasua ei ole asennettuna.";
+//$definitions["message.notWritable"] = "<code>%s</code> is not writeable. Try <code>chmod</code>ing it to <code>777</code>, or if it doesn't exist, <code>chmod</code> the folder it is contained within.";
+$definitions["message.notWritable"] = "<code>%s</code> -tiedostoon ei voida kirjoittaa. Kokeile muuttaa sen käyttöoikeudeksi <code>777</code> <code>chmod</code>-komennolla. Jos tiedostoa ei ole olemassa, muokkaa kansion oikeuksia."; //***
+//$definitions["message.pageNotFound"] = "The page you're looking for could not be found.";
+$definitions["message.pageNotFound"] = "Hakemaasi sivua ei löytynyt.";
+//$definitions["message.passwordChanged"] = "Alright, your password has been changed. Now you can log in! Hey, try not to forget it again, OK?";
+$definitions["message.passwordChanged"] = "No niin, salasanasi on muutettu. Nyt voit kirjautua sisään! Ja hei, yritä olla unohtamatta sitä tällä kertaa, jooko?";
+//$definitions["message.passwordEmailSent"] = "Ok, we've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two. Yeah, some times we get put through to spam - can you believe it?!";
+$definitions["message.passwordEmailSent"] = "OK, olemme lähettäneet sinulle sähköpostia, jossa on linkki salasanasi vaihtamiseen. Jos viestiä ei näy parin minuutin sisällä, tarkista roskapostikansiosi. Jep, joskus meidän viestimme heitetään suoraan roskiin - törkeää kohtelua, sanon minä!";
+//$definitions["message.passwordsDontMatch"] = "Your passwords do not match.";
+$definitions["message.passwordsDontMatch"] = "Salasanasi eivät täsmää.";
+//$definitions["message.passwordTooShort"] = "Your password is too short.";
+$definitions["message.passwordTooShort"] = "Salasanasi on liian lyhyt.";
+//$definitions["message.pluginCannotBeEnabled"] = "The plugin <em>%s</em> cannot be enabled: %s";
+$definitions["message.pluginCannotBeEnabled"] = "<em>%s</em> -liitännäistä ei voida ottaa käyttöön: %s";
+//$definitions["message.pluginDependencyNotMet"] = "To enable this plugin, you must have %s version %s installed and enabled.";
+$definitions["message.pluginDependencyNotMet"] = "Ottaaksesi tämän liitännäisen käyttöön sinulla on oltava %s versio %s käytössä.";
+//$definitions["message.pluginUninstalled"] = "The plugin was uninstalled.";
+$definitions["message.pluginUninstalled"] = "Liitännäinen poistettu.";
+//$definitions["message.postNotFound"] = "The post you're looking for could not be found.";
+$definitions["message.postNotFound"] = "Etsimääsi viestiä ei löydy.";
+//$definitions["message.postTooLong"] = "Your post is really, really long! Too long! The maximum number of characters allowed is %s. That's really long!";
+$definitions["message.postTooLong"] = "Kirjoituksesi on todella, todella pitkä! Liian pitkä! Suurin sallittu merkkimäärä on %s. Se on paljon!";
+//$definitions["message.preInstallErrors"] = "These errors must be resolved before you can continue the installation.";
+$definitions["message.preInstallErrors"] = "Nämä virheet on korjattava ennen kuin voit jatkaa asennusta."; //*** or "ratkaistava"?
+//$definitions["message.preInstallWarnings"] = "You can continue the esoTalk install without resolving the following warnings, but some esoTalk functionality may be limited.";
+$definitions["message.preInstallWarnings"] = "Voit jatkaa asennusta ilman että käsittelet seuraavat varoitukset, mutta jotkin esoTalkin ominaisuudet voivat toimia rajoitetusti."; //***
+//$definitions["message.reduceNumberOfGambits"] = "Reduce the number of gambits or search keywords you're using to find a broader range of conversations.";
+$definitions["message.reduceNumberOfGambits"] = "Vähennä käyttämiesi gambiittien ja avainsanojen määrää löytääksesi enemmän keskusteluja.";
+//$definitions["message.registerGlobalsWarning"] = "<strong>PHP's register_globals setting is enabled.</strong> While esoTalk can run with this setting on, it is recommended that it be turned off to increase security and to prevent esoTalk from having problems.";
+$definitions["message.registerGlobalsWarning"] = "<strong>PHP:n register_globals -asetus on päällä.</strong> Vaikka esoTalk toimii tämän asetuksen kanssa, on suositeltavaa ottaa se pois päältä tietoturvan parantamiseksi ja mahdollisten ongelmien välttämiseksi.";
 $definitions["message.registrationClosed"] = "Tämä foorumi ei ole avoin julkisille rekisteröinneille.";
-$definitions["message.removeDirectoryWarning"] = "Hey! Looks like you haven't deleted the <code>%s</code> directory like we told you to! You probably should, just to make sure those hackers can't do anything naughty.";
-$definitions["message.safeModeWarning"] = "<strong>Safe mode is enabled.</strong> This could potentially cause problems with esoTalk, but you can still proceed if you cannot turn it off.";
-$definitions["message.searchAllConversations"] = "Try searching for this term across all conversations.";
-$definitions["message.setNewPassword"] = "Alright! Now, what do you want your new password to be?";
-$definitions["message.skinUninstalled"] = "The skin was uninstalled.";
-$definitions["message.suspended"] = "Ouch! A forum moderator has <strong>suspended</strong> your account. It sucks, but until the suspension is lifted you won't be able to do much around here. Hey, screw them!";
-$definitions["message.suspendMemberHelp"] = "Suspending %s will prevent them from replying to conversations, starting conversations, and viewing private conversations. They will effectively have the same permissions as a guest.";
-$definitions["message.tablePrefixConflict"] = "The installer has detected that there is another installation of esoTalk in the same MySQL database with the same table prefix.<br>• To overwrite this installation, click 'Install' again. <strong>All data will be lost.</strong><br>• To create a new installation alongside this one, change the table prefix.";
-$definitions["message.unsuspendMemberHelp"] = "Unsuspending %s will enable them to participate in conversations on this forum again.";
-$definitions["message.upgradeSuccessful"] = "esoTalk was successfully upgraded.";
-$definitions["message.waitForApproval"] = "Before you can start using your newly-created account, an administrator must approve your account. We'll send you an email when you've been approved!";
-$definitions["message.waitToReply"] = "You must wait at least %s seconds between starting or replying to conversations. Take a deep breath and try again.";
-$definitions["message.waitToSearch"] = "Woah, slow down! Looks like you're trying to perform a few too many searches. Wait %s seconds and try again.";
-
+//$definitions["message.removeDirectoryWarning"] = "Hey! Looks like you haven't deleted the <code>%s</code> directory like we told you to! You probably should, just to make sure those hackers can't do anything naughty.";
+$definitions["message.removeDirectoryWarning"] = "Hei! Näyttää siltä, että et ole poistanut <code>%s</code> -hakemistoa vaikka pyysimme! Sinun kannattaisi poistaa se ihan vain varmistaaksesi, etteivät hakkerit pääse tekemään kiusaa.";
+//$definitions["message.safeModeWarning"] = "<strong>Safe mode is enabled.</strong> This could potentially cause problems with esoTalk, but you can still proceed if you cannot turn it off.";
+$definitions["message.safeModeWarning"] = "<strong>PHP:n Safe mode on käytössä.</strong> Tämä saattaa aiheuttaa ongelmia esoTalkin kanssa, mutta jos et saa sitä pois päältä niin yritetään elää asian kanssa.";
+//$definitions["message.searchAllConversations"] = "Try searching for this term across all conversations.";
+$definitions["message.searchAllConversations"] = "Kokeile hakea tätä termiä kaikista keskusteluista.";
+//$definitions["message.setNewPassword"] = "Alright! Now, what do you want your new password to be?";
+$definitions["message.setNewPassword"] = "Hyvä! Anna nyt uusi salasanasi.";
+//$definitions["message.skinUninstalled"] = "The skin was uninstalled.";
+$definitions["message.skinUninstalled"] = "Ulkoasu on poistettu.";
+//$definitions["message.suspended"] = "Ouch! A forum moderator has <strong>suspended</strong> your account. It sucks, but until the suspension is lifted you won't be able to do much around here. Hey, screw them!";
+$definitions["message.suspended"] = "Auts! Joku foorumin moderaattoreista on <strong>hyllyttänyt</strong> tilisi. Kurja juttu, mutta kunnes asiaan tulee muutos, et voi tehdä täällä juuri mitään. No, on elämässä muutakin sisältöä kuin yksi foorumi."; //***
+//$definitions["message.suspendMemberHelp"] = "Suspending %s will prevent them from replying to conversations, starting conversations, and viewing private conversations. They will effectively have the same permissions as a guest.";
+$definitions["message.suspendMemberHelp"] = "Jäsenen %s hyllyttäminen estää heitä vastaamasta keskusteluihin, aloittamasta keskusteluja ja näkemästä yksityisiä keskusteluja. Käytännössä heillä tulee olemaan samat oikeudet kuin vieraalla.";
+//$definitions["message.tablePrefixConflict"] = "The installer has detected that there is another installation of esoTalk in the same MySQL database with the same table prefix.<br>• To overwrite this installation, click 'Install' again. <strong>All data will be lost.</strong><br>• To create a new installation alongside this one, change the table prefix.";
+$definitions["message.tablePrefixConflict"] = "Asennusohjelma on havainnut, että valitussa MySQL-tietokannassa on toinen esoTalk-asennus, joka käyttää samaa taulun etuliitettä. Vaihda taulun etuliitettä asentaaksesi uuden foorumin vanhan rinnalle.";
+//$definitions["message.unsuspendMemberHelp"] = "Unsuspending %s will enable them to participate in conversations on this forum again.";
+$definitions["message.unsuspendMemberHelp"] = "Jäsenen %s hyllytyksen peruminen antaa heidän taas osallistua foorumin keskusteluihin.";
+//$definitions["message.upgradeSuccessful"] = "esoTalk was successfully upgraded.";
+$definitions["message.upgradeSuccessful"] = "esoTalkin päivitys onnistui.";
+//$definitions["message.waitForApproval"] = "Before you can start using your newly-created account, an administrator must approve your account. We'll send you an email when you've been approved!";
+$definitions["message.waitForApproval"] = "Ennen kuin pääset käyttämään upouutta tiliäsi, se vaatii ylläpitäjän hyväksynnän. Lähetämme sinulle sähköpostia kun sinut on hyväksytty jäseneksi.";
+//$definitions["message.waitToReply"] = "You must wait at least %s seconds between starting or replying to conversations. Take a deep breath and try again.";
+$definitions["message.waitToReply"] = "Sinun on odotettava vähintään %s sekuntia ennen kuin voit aloittaa tai vastata keskusteluun. Hengitä syvään ja kokeile uudestaan.";
+//$definitions["message.waitToSearch"] = "Woah, slow down! Looks like you're trying to perform a few too many searches. Wait %s seconds and try again.";
+$definitions["message.waitToSearch"] = "Hei, rauhoitu! Näyttää siltä, että yrität tehdä hakuja liian nopeasti. Odota %s sekuntia ja yritä uudestaan.";
 
 // Emails.
 //$definitions["email.header"] = "<p>Hi %s!</p>";
@@ -577,23 +635,28 @@ $definitions["email.footer"] = "<p>(Jos et enää halua saada tämänkaltaisia s
 
 //$definitions["email.confirmEmail.subject"] = "%1\$s, please confirm your email address";
 $definitions["email.confirmEmail.subject"] = "%1\$s, ole hyvä ja vahvista sähköpostiosoitteesi.";
-
-$definitions["email.confirmEmail.body"] = "<p>Someone (hopefully you!) has signed up to the forum '%1\$s' with this email address.</p><p>If this was you, simply visit the following link and your account will be activated:<br>%2\$s</p>";
+//$definitions["email.confirmEmail.body"] = "<p>Someone (hopefully you!) has signed up to the forum '%1\$s' with this email address.</p><p>If this was you, simply visit the following link and your account will be activated:<br>%2\$s</p>";
+$definitions["email.confirmEmail.body"] = "<p>Joku (toivottavasti sinä!) on liittynyt jäseneksi foorumille '%1\$s' käyttäen tätä sähköpostiosoitetta.</p><p>Jos se olit sinä, niin seuraa oheista linkkiä tilisi aktivoimiseksi:<br>%2\$s</p>";
 
 $definitions["email.approved.subject"] = "%1\$s, tilisi on hyväksytty";
-$definitions["email.approved.body"] = "<p>Your account on %1\$s has been approved.</p><p>Visit the following link to log in and start talking:<br>%2\$s</p>";
+//$definitions["email.approved.body"] = "<p>Your account on %1\$s has been approved.</p><p>Visit the following link to log in and start talking:<br>%2\$s</p>";
+$definitions["email.approved.body"] = "<p>Tilisi %1\$s -foorumilla on hyväksytty.</p><p>Seuraa oheista linkkiä kirjautuaksesi sisään ja ryhdy keskustelemaan:<br>%2\$s</p>"; //***
 
 $definitions["email.forgotPassword.subject"] = "Unohditko salasanasi, %1\$s?";
-$definitions["email.forgotPassword.body"] = "<p>Someone (hopefully you!) has submitted a forgotten password request for your account on the forum '%1\$s'. If you do not wish to change your password, just ignore this email and nothing will happen.</p><p>However, if you did forget your password and wish to set a new one, visit the following link:<br>%2\$s</p>";
+//$definitions["email.forgotPassword.body"] = "<p>Someone (hopefully you!) has submitted a forgotten password request for your account on the forum '%1\$s'. If you do not wish to change your password, just ignore this email and nothing will happen.</p><p>However, if you did forget your password and wish to set a new one, visit the following link:<br>%2\$s</p>";
+$definitions["email.forgotPassword.body"] = "<p>Joku (toivottavasti sinä!) on pyytänyt unohtuneen salasanan nollaamista foorumille '%1\$s'. Jos et halua vaihtaa salasanaasi voit jättää tämän viestin huomiotta.</p><p>Jos taas olet unohtanut salasanasi ja haluat vaihtaa sen uuteen, seuraa oheista linkkiä:<br>%2\$s</p>";
 
 $definitions["email.mention.subject"] = "[%1\$s mainitsi sinut] %2\$s";
-$definitions["email.mention.body"] = "<p><strong>%1\$s</strong> mentioned you in a post in the conversation <strong>%2\$s</strong>.</p><hr>%3\$s<hr><p>To view the post in context, check out the following link:<br>%4\$s</p>";
+//$definitions["email.mention.body"] = "<p><strong>%1\$s</strong> mentioned you in a post in the conversation <strong>%2\$s</strong>.</p><hr>%3\$s<hr><p>To view the post in context, check out the following link:<br>%4\$s</p>";
+$definitions["email.mention.body"] = "<p><strong>%1\$s</strong> mainitsi sinut viestissään keskustelussa, jonka otsikko on <strong>%2\$s</strong>.</p><hr>%3\$s<hr><p>Nähdäksesi viestin asiayhteydessä, seuraa oheista linkkiä:<br>%4\$s</p>";
 
 $definitions["email.privateAdd.subject"] = "[Yksityinen] %1\$s";
-$definitions["email.privateAdd.body"] = "<p>You have been added to a private conversation titled <strong>%1\$s</strong>.</p><hr>%2\$s<hr><p>To view this conversation, check out the following link:<br>%3\$s</p>";
+//$definitions["email.privateAdd.body"] = "<p>You have been added to a private conversation titled <strong>%1\$s</strong>.</p><hr>%2\$s<hr><p>To view this conversation, check out the following link:<br>%3\$s</p>";
+$definitions["email.privateAdd.body"] = "<p>Sinut on lisätty yksityiseen keskusteluun, jonka otsikko <strong>%1\$s</strong>.</p><hr>%2\$s<hr><p>Nähdäksesi tämän keskustelun, seuraa oheista linkkiä:<br>%3\$s</p>";
 
 $definitions["email.post.subject"] = "[Uusi vastaus] %1\$s";
-$definitions["email.post.body"] = "<p><strong>%1\$s</strong> has replied to a conversation which you followed: <strong>%2\$s</strong></p><hr>%3\$s<hr><p>To view the new activity, check out the following link:<br>%4\$s</p>";
+//$definitions["email.post.body"] = "<p><strong>%1\$s</strong> has replied to a conversation which you followed: <strong>%2\$s</strong></p><hr>%3\$s<hr><p>To view the new activity, check out the following link:<br>%4\$s</p>";
+$definitions["email.post.body"] = "<p><strong>%1\$s</strong> on vastannut seuraamaasi keskusteluun: <strong>%2\$s</strong></p><hr>%3\$s<hr><p>Nähdäksesi uudet viestit, seuraa oheista linkkiä:<br>%4\$s</p>";
 
 
 // Translating the gambit system can be quite complex, but we'll do our best to get you through it. :)
@@ -603,54 +666,54 @@ $definitions["email.post.body"] = "<p><strong>%1\$s</strong> has replied to a co
 // These gambits are pretty much evaluated as-they-are.
 // tag:, author:, contributor:, and quoted: are combined with a value after the colon (:).
 // For example: tag:video games, author:myself
-$definitions["gambit.author:"] = "author:";
-$definitions["gambit.contributor:"] = "contributor:";
-$definitions["gambit.member"] = "member";
-$definitions["gambit.myself"] = "myself";
-$definitions["gambit.draft"] = "draft";
-$definitions["gambit.locked"] = "locked";
-$definitions["gambit.order by newest"] = "order by newest";
-$definitions["gambit.order by replies"] = "order by replies";
-$definitions["gambit.private"] = "private";
-$definitions["gambit.random"] = "random";
-$definitions["gambit.reverse"] = "reverse";
-$definitions["gambit.starred"] = "followed";
-$definitions["gambit.ignored"] = "ignored";
-$definitions["gambit.sticky"] = "sticky";
-$definitions["gambit.unread"] = "unread";
-$definitions["gambit.limit:"] = "limit:";
-$definitions["gambit.title:"] = "title:";
+$definitions["gambit.author:"] = "kirjoittaja:";
+$definitions["gambit.contributor:"] = "osallistuja:";
+$definitions["gambit.member"] = "jäsen";
+$definitions["gambit.myself"] = "minä";
+$definitions["gambit.draft"] = "luonnos";
+$definitions["gambit.locked"] = "lukittu";
+$definitions["gambit.order by newest"] = "uusin ensin";
+$definitions["gambit.order by replies"] = "eniten vastauksia";
+$definitions["gambit.private"] = "yksityinen";
+$definitions["gambit.random"] = "satunnainen";
+$definitions["gambit.reverse"] = "käänteinen";
+$definitions["gambit.starred"] = "seurattu";
+$definitions["gambit.ignored"] = "sivuutettu";
+$definitions["gambit.sticky"] = "kiinnitetty";
+$definitions["gambit.unread"] = "lukematon";
+$definitions["gambit.limit:"] = "enintään:";
+$definitions["gambit.title:"] = "otsikko:";
 
 // Aliases
 // These are gambits which tell the gambit system to use another gambit.
 // In other words, when you type "active today", the gambit system interprets it as if you typed "active 1 day".
 // The first of each pair, the alias, can be anything you want.
 // The second, however, must fit with the regular expression pattern defined below (more on that later.)
-$definitions["gambit.active today"] = "active today"; // what appears in the gambit cloud
-$definitions["gambit.active 1 day"] = "active 1 day"; // what it actually evaluates to
+$definitions["gambit.active today"] = "aktiivinen tänään"; // what appears in the gambit cloud
+$definitions["gambit.active 1 day"] = "aktiivinen 1 päivän aikana"; // what it actually evaluates to
 
-$definitions["gambit.has replies"] = "has replies";
-$definitions["gambit.has >0 replies"] = "has >0 replies";
-$definitions["gambit.has >10 replies"] = "has >10 replies";
+$definitions["gambit.has replies"] = "on vastauksia";
+$definitions["gambit.has >0 replies"] = "on >0 vastausta";
+$definitions["gambit.has >10 replies"] = "on >10 vastausta";
 
-$definitions["gambit.has no replies"] = "has no replies";
-$definitions["gambit.has 0 replies"] = "has 0 replies";
+$definitions["gambit.has no replies"] = "ei ole vastauksia";
+$definitions["gambit.has 0 replies"] = "on 0 vastausta";
 
-$definitions["gambit.dead"] = "dead";
-$definitions["gambit.active >30 day"] = "active >30 day";
+$definitions["gambit.dead"] = "kuollut";
+$definitions["gambit.active >30 day"] = "aktiivinen >30 päivän aikana";
 
 // Units of time
 // These are used in the active gambit.
 // ex. "[active] [>|<|>=|<=|last] 180 [second|minute|hour|day|week|month|year]"
-$definitions["gambit.second"] = "second";
-$definitions["gambit.minute"] = "minute";
-$definitions["gambit.hour"] = "hour";
-$definitions["gambit.day"] = "day";
-$definitions["gambit.week"] = "week";
-$definitions["gambit.month"] = "month";
-$definitions["gambit.year"] = "year";
-$definitions["gambit.last"] = "last"; // as in "active last 180 days"
-$definitions["gambit.active"] = "active"; // as in "active last 180 days"
+$definitions["gambit.second"] = "sekunnin";
+$definitions["gambit.minute"] = "minuutin";
+$definitions["gambit.hour"] = "tunnin";
+$definitions["gambit.day"] = "päivän";
+$definitions["gambit.week"] = "viikon";
+$definitions["gambit.month"] = "kuukauden";
+$definitions["gambit.year"] = "vuoden";
+$definitions["gambit.last"] = "viimeisen"; // as in "active last 180 days"
+$definitions["gambit.active"] = "aktiivinen"; // as in "active last 180 days"
 
 // Now the hard bit. This is a regular expression to test for the "active" gambit.
 // The group (?<a> ... ) is the comparison operator (>, <, >=, <=, or last).
@@ -662,9 +725,9 @@ $definitions["gambit.gambitActive"] = "/^{$definitions["gambit.active"]} *(?<a>>
 
 // These appear in the tag cloud. They must fit the regular expression pattern where the ? is a number.
 // If the regular expression pattern has been reordered, these gambits must also be reordered (as well as the ones in aliases.)
-$definitions["gambit.active last ? hours"] = "{$definitions["gambit.active"]} {$definitions["gambit.last"]} ? {$definitions["gambit.hour"]}s";
-$definitions["gambit.active last ? days"] = "{$definitions["gambit.active"]} {$definitions["gambit.last"]} ? {$definitions["gambit.day"]}s";
+$definitions["gambit.active last ? hours"] = "{$definitions["gambit.active"]} {$definitions["gambit.last"]} ? {$definitions["gambit.hour"]} aikana";
+$definitions["gambit.active last ? days"] = "{$definitions["gambit.active"]} {$definitions["gambit.last"]} ? {$definitions["gambit.day"]} aikana";
 
 // This is similar to the regular expression for the active gambit, but for the "has n reply(s)" gambit.
 // Usually you just need to change the "has" and "repl".
-$definitions["gambit.gambitHasNReplies"] = "/^has *(?<a>>|<|>=|<=)? *(?<b>\d+) *repl/";
+$definitions["gambit.gambitHasNReplies"] = "/^on *(?<a>>|<|>=|<=)? *(?<b>\d+) *vastau/";

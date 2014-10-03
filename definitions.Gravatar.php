@@ -1,8 +1,18 @@
 <?php
 /**
- * Language pack for the Gravatar plugin
+ * Finnish language pack for esoTalk Gravatar plugin.
+ * 
  * https://github.com/esotalk/Gravatar
- **/
+ * 
+ * @package			esoTalk
+ * @subpackage	plugins.Gravatar
+ * @copyright		Copyright (c) 2011 Toby Zerner
+ *              Finnish translations (c) 2014 Juha Auvinen
+ * @author			Toby Zerner; Juha Auvinen
+ * @license			http://opensource.org/licenses/GPL-2.0 Gnu General Public License 2.0
+ * @link				http://www.github.com/saimiri/esotalk-finnish-translation
+ */
+$definitions["Allows users to choose to use their Gravatar."] = "Sallii jäsenten käyttää Gravataria";
 $definitions["Change your avatar on %s."] = "Vaihda avataria %s -sivustolla.";    
 $definitions["Default imageset"] = "Oletus kuvasarja";
 $definitions["Default"] = "Oletus";
